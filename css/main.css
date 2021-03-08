@@ -40,13 +40,20 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+}
+
+.logo{
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .topbar-2{
   width: 100%;
-  background-color: teal;
+  /* background-color: teal; */
   /* display: flex; */
   /* justify-content: center; */
+  color: white;
 }
 
 .topbar-2>div{
@@ -154,7 +161,7 @@ body{
   position: absolute;
   height: 5px;
   width: 100%;
-  background-color: blue;
+  background-color: white;
   border-radius: 5px;
   opacity: 1;
   left: 0;
@@ -175,5 +182,16 @@ body{
   width: 50%;
   transition: 1s;
   left: 20px;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  position: absolute;
+  background-image: url(../images/main-4.jpeg),url(../images/main-6.jpeg),url(../images/main-7.jpeg);
+  background-size: contain, contain,contain;
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: center,left,right;
 }
 
