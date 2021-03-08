@@ -14,5 +14,7 @@ function openWomanOption(){
 // sidebar close and open
 function clickSide(){
   let menu = document.getElementById('sideBar');
-  menu.classList.toggle('option-block');
+  let cover = document.querySelector('.cover');
+  menu.classList.toggle('hide');
+  cover.classList.toggle('hide');
 }

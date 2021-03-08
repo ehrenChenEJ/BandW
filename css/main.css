@@ -67,6 +67,10 @@ body{
   color: white;
 }
 
+.sideBarIn{
+  cursor: pointer;
+}
+
 .sideBar>div:first-child{
   width: 85%;
   margin: 3rem auto;
@@ -88,7 +92,7 @@ body{
 }
 
 /* 控制下拉開關 */
-.option-block{
+.hide{
   display: none;
 }
 
@@ -124,4 +128,14 @@ body{
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 5px solid white;
+}
+
+.cover{
+  width: 70%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 30;
+  position: absolute;
+  right: 0;
 }
