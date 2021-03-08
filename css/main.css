@@ -249,3 +249,11 @@ body{
   height: 40px;
 }
 
+.footer{
+  position: absolute;
+  top:100vh;
+  /* border: 1px solid red; */
+  width: 100%;
+  background-color: black;
+  color: white;
+}
