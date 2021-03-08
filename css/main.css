@@ -105,6 +105,9 @@ body{
 .sideBar>div:nth-child(2)>div:hover{
   color: lightgray;
 }
+.sideBar>div:nth-child(2)>div>a:hover{
+  color: lightgray;
+}
 
 /* 控制下拉開關 */
 .hide{
