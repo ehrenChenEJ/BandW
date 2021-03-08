@@ -53,7 +53,11 @@ body{
   /* background-color: teal; */
   /* display: flex; */
   /* justify-content: center; */
+}
+
+.topbar-2 a {
   color: white;
+  text-decoration: none;
 }
 
 .topbar-2>div{
@@ -193,5 +197,12 @@ body{
   background-size: contain, contain,contain;
   background-repeat: no-repeat,no-repeat,no-repeat;
   background-position: center,left,right;
+}
+
+.cart{
+  background-image: url(../images/bag.svg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
 }
 
