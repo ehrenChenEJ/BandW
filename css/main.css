@@ -59,6 +59,10 @@ body{
   color: white;
   text-decoration: none;
 }
+.topbar-2 a:hover{
+  text-decoration: underline;
+  transition: 1s;
+}
 
 .topbar-2>div{
   width: 40%;
