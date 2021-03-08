@@ -65,7 +65,6 @@ body{
   z-index: 20;
   position: absolute;
   color: white;
-  
 }
 
 .sideBar>div:first-child{
@@ -95,6 +94,10 @@ body{
 
 .option-open{
   display: block;
+}
+
+.closeSide{
+  cursor: pointer;
 }
 
 .option-block a{
