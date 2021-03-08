@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  /* background-color: black; */
+  margin: 0;
+}
+
+.top-block{
+  /* background-color: black; */
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  z-index: 10;
+  /* position: absolute; */
+}
+
+.promo{
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar{
+  /* background-color: black; */
+  width: 100%;
+  /* opacity: 0.2; */
+}
+
+.topbar-1{
+  width: 96%;
+  margin: 0 auto;
+  /* background-color: violet; */
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.topbar-2{
+  width: 100%;
+  /* background-color: teal; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.topbar-2 a {
+  color: white;
+  text-decoration: none;
+}
+.topbar-2 a:hover{
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.topbar-2>div{
+  width: 40%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sideBar{
+  width: 30%;
+  height: 100vh;
+  background-color: black;
+  z-index: 20;
+  position: absolute;
+  color: white;
+}
+
+.sideBarIn{
+  cursor: pointer;
+}
+
+.sideBar>div:first-child{
+  width: 85%;
+  margin: 3rem auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sideBar>div:nth-child(2){
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: 2rem auto;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.sideBar>div:nth-child(2)>div{
+  margin-top: 1rem;
+}
+
+.sideBar>div:nth-child(2)>div:hover{
+  color: lightgray;
+}
+.sideBar>div:nth-child(2)>div>a:hover{
+  color: lightgray;
+}
+
+/* 控制下拉開關 */
+.hide{
+  display: none;
+}
+
+.option-open{
+  display: block;
+}
+
+.closeSide{
+  cursor: pointer;
+  /* border: 1px solid red; */
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.option-block a{
+  color: lightgray;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.option-block li{
+  list-style-type:none;
+}
+
+.sideBar>div:nth-child(2)>:nth-child(3) a,
+.sideBar>div:nth-child(2)>:nth-child(4) a{
+  color: white;
+  text-decoration: none;  
+}
+.tri {
+  /* width: 20px; */
+  /* background-color: red; */
+  margin: 10px;
+  /* height: 20px; */
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+
+.tri:hover{
+  border-top: 5px solid lightgray;
+}
+
+.cover{
+  width: 70%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 30;
+  position: absolute;
+  right: 0;
+}
+
+/* burger icon */
+#nav-icon{
+  width: 40px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+#nav-icon span{
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 1;
+  left: 0;
+}
+
+#nav-icon span:nth-child(1){
+  top: 0;
+}
+#nav-icon span:nth-child(2){
+  top:10px
+}
+#nav-icon span:nth-child(3){
+  top: 20px;
+}
+
+#nav-icon:hover span:nth-child(1),
+#nav-icon:hover span:nth-child(3){
+  width: 50%;
+  transition: 1s;
+  left: 20px;
+}
+
+.closeSide span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 1;
+  /* border: 1px solid red; */
+  left: 90%;
+}
+
+.closeSide span:nth-child(1){
+  /* right: 10px; */
+  top: 21px;
+  /* transform-origin:bottom; */
+  transform:rotatez(45deg);
+}
+.closeSide span:nth-child(2){
+  top:21px;
+  transform-origin:top;
+  transform:rotatez(-45deg);
+}
+.cart{
+  background-image: url(../images/bag.svg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+
