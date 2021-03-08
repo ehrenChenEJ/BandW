@@ -3,7 +3,7 @@ window.onload = function(){
 }
 // 打字效果參數
 let domType = document.querySelector('.topWord');
-let dataType = 'WHICH DO YOU WANT TODAY?'.split('');
+let dataType = 'WHICH ONE DO YOU WANT TODAY?'.split('');
 let indexType = 0;
 
 function writing(indexType){
