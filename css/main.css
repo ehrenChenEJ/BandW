@@ -35,7 +35,7 @@ body{
 .topbar-1{
   width: 96%;
   margin: 0 auto;
-  background-color: violet;
+  /* background-color: violet; */
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -138,4 +138,11 @@ body{
   z-index: 30;
   position: absolute;
   right: 0;
+}
+
+.nav-icon{
+  width: 60px;
+  height: 45px;
+  position: relative;
+  cursor: pointer;
 }
