@@ -17,3 +17,11 @@ function clickSide(){
   menu.classList.toggle('hide');
   cover.classList.toggle('hide');
 }
+
+// cart close and open 
+function clickCart(){
+  let cart = document.querySelector('.sideCart');
+  let cover = document.querySelector('.cover2');
+  cart.classList.toggle('hide');
+  cover.classList.toggle('hide');
+}

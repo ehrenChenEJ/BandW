@@ -80,6 +80,7 @@ body{
   background-size: cover;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 /* ------------------ */
 /* Top end */
@@ -322,7 +323,7 @@ body{
 /* --------------- */
 .sideCart{
   z-index: 8888;
-  width: 30%;
+  width: 40%;
   height: 100%;
   position: fixed;
   background-color: white;
@@ -388,6 +389,18 @@ body{
   font-weight: bold;
   text-decoration: none;
 }
+
+.cover2{
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 30;
+  position: absolute;
+  left: 0;
+  position: fixed;
+}
+
 /* --------------- */
 /* sideCart end */
 
