@@ -3,19 +3,16 @@
 }
 
 body{
-  /* background-color: black; */
   margin: 0;
 }
 
 /* Top start */
 /* ------------------ */
 .top-block{
-  /* background-color: black; */
   width: 100%;
   height: 200px;
   position: fixed;
   z-index: 10;
-  /* position: absolute; */
 }
 
 .promo{
@@ -29,15 +26,12 @@ body{
 }
 
 .topbar{
-  /* background-color: black; */
   width: 100%;
-  /* opacity: 0.2; */
 }
 
 .topbar-1{
   width: 96%;
   margin: 0 auto;
-  /* background-color: violet; */
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -50,11 +44,13 @@ body{
   font-weight: 900;
 }
 
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
 .topbar-2{
   width: 100%;
-  /* background-color: teal; */
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
 .topbar-2 a {
@@ -91,7 +87,6 @@ body{
 
 .sideBar{
   width: 30%;
-  /* min-height: 100%; */
   height: 100%;
   background-color: black;
   z-index: 8888;
@@ -107,13 +102,11 @@ body{
 .sideBar>div:first-child{
   width: 85%;
   margin: 3rem auto;
-  /* background-color: red; */
   display: flex;
   justify-content: flex-end;
 }
 
 .sideBar>div:nth-child(2){
-  /* border: 1px solid red; */
   width: 85%;
   margin: 2rem auto;
   font-size: 2rem;
@@ -142,7 +135,6 @@ body{
 
 .closeSide{
   cursor: pointer;
-  /* border: 1px solid red; */
   position: relative;
   width: 100%;
   height: 40px;
@@ -164,10 +156,7 @@ body{
   text-decoration: none;  
 }
 .tri {
-  /* width: 20px; */
-  /* background-color: red; */
   margin: 10px;
-  /* height: 20px; */
   display: inline-block;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
@@ -195,7 +184,6 @@ body{
   height: 30px;
   position: relative;
   cursor: pointer;
-  /* border: 1px solid red; */
 }
 
 #nav-icon span{
@@ -234,16 +222,14 @@ body{
   background-color: white;
   border-radius: 5px;
   opacity: 1;
-  /* border: 1px solid red; */
   left: 90%;
 }
 
 .closeSide span:nth-child(1){
-  /* right: 10px; */
   top: 21px;
-  /* transform-origin:bottom; */
   transform:rotatez(45deg);
 }
+
 .closeSide span:nth-child(2){
   top:21px;
   transform-origin:top;
@@ -291,7 +277,6 @@ body{
 .footer>div:nth-child(3) li,
 .footer>div:nth-child(4) li{
   list-style-type: none;
-  /* border: 1px solid red; */
   margin: 1rem auto 1rem 0;
   font-size: 0.5rem;
 }
@@ -307,7 +292,6 @@ body{
 .footer>div:nth-child(2) ul,
 .footer>div:nth-child(3) ul,
 .footer>div:nth-child(4) ul{
-  /* border: 1px solid white; */
   padding: 0;
 }
 .footer>div:nth-child(5){
@@ -323,7 +307,7 @@ body{
 /* --------------- */
 .sideCart{
   z-index: 8888;
-  width: 40%;
+  width: 30%;
   height: 100%;
   position: fixed;
   background-color: white;
@@ -345,7 +329,6 @@ body{
 }
 
 .cart-button{
-  /* border:1px solid red; */
   margin: 4rem auto;
   display: flex;
   flex-wrap: wrap;
@@ -356,7 +339,6 @@ body{
   width: 230px;
   height: 50px;
   position: relative;
-  /* border:1px solid blue; */
   color: white;
   font-weight: bold;
 }
@@ -391,7 +373,7 @@ body{
 }
 
 .cover2{
-  width: 60%;
+  width: 70%;
   height: 100%;
   background-color: black;
   opacity: 0.5;

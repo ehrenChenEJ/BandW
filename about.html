@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/about.css">
 </head>
 <body>
+  <!-- <div class="bg"></div> -->
   <div class="top-block">
     <div class="promo">
       Orders > $100: Add a Calendar to your cart for free! 
@@ -25,8 +26,10 @@
           <span></span>
           <span></span>
         </div>
-        <div class="logo">B & W</div>
-        <div class="cart"></div>
+        <div class="logo">
+          <a href="">B & W</a>
+        </div>
+        <div class="cart" onclick="clickCart();"></div>
       </div>
       <div class="topbar-2">
         <div>
@@ -110,10 +113,61 @@
     </div>
   </div>
   <!-- sidebar end -->
+  <!-- cartSide start -->
+  <div class="sideCart hide" id="sideCart">
+    <p>CART</p>
+    <hr>
+    <div class="cart-product">
+      <div class="cart-empty">0 products in your cart</div>
+    </div>
+    <hr>
+    <div class="cart-button">
+      <a href=""><div><p>EDIT CART</p></div></a>
+      <a href=""><div><p>CHECKOUT</p></div></a>
+      <a href=""><div><p>CONTINUE BROWSING</p></div></a>
+    </div>
+  </div>
+  <!-- cartSide end -->
   <!-- cover start -->
   <div class="cover hide" onclick="clickSide();"></div>
+  <div class="cover2 hide" onclick="clickCart();"></div>
   <!-- cover end -->
+  <!-- footer start -->
+  <div class="footer">
+    <div>
+      COLLECTION
+      <ul>
+        <li><a href="">MEN</a></li>
+        <li><a href="">WOMEN</a></li>
+      </ul>
+    </div>
+    <div>
+      INFORMATION
+      <ul>
+        <li><a href="">SHOPPING</a></li>
+        <li><a href="">TERM OF SERVICE</a></li>
+        <li><a href="">REFUND POLICY</a></li>
+        <li><a href="">PRIVACY POLICY</a></li>
+      </ul>
+    </div>
+    <div>
+      MORE
+      <ul>
+        <li><a href="">PRIVACY POLICY</a></li>
+      </ul>
+    </div>
+    <div>
+      SOCIALS
+      <ul>
+        <li><a href="">IG</a></li>
+        <li><a href="">FB</a></li>
+        <li><a href="">EMAIL</a></li>
+        <li><a href="">PINSTREET</a></li>
+      </ul>
+    </div>
+    <div>Copyright@ 2021 B&W</div>
+  </div>
+  <!-- footer end -->
   <script src="./js/common.js"></script>
-  <script src="./js/about.js"></script>
 </body>
 </html>
