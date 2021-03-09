@@ -318,5 +318,76 @@ body{
 /* --------------- */
 /* Footer end */
 
+/* sideCart start */
+/* --------------- */
+.sideCart{
+  z-index: 8888;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  right: 0;
+  padding: 3rem;
+}
 
+.sideCart>p{
+  margin-bottom: 3rem;
+}
+
+.sideCart>hr {
+  border: 1px solid lightgrey;
+}
+
+.cart-empty{
+  color: lightslategrey;
+  margin: 3rem auto;
+}
+
+.cart-button{
+  /* border:1px solid red; */
+  margin: 4rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cart-button>a:nth-child(1)>div,
+.cart-button>a:nth-child(2)>div{
+  width: 230px;
+  height: 50px;
+  position: relative;
+  /* border:1px solid blue; */
+  color: white;
+  font-weight: bold;
+}
+
+.cart-button>a:nth-child(1)>div{
+  background-color: lightgrey;
+}
+
+.cart-button>a:nth-child(1) p{
+  position: absolute;
+  left: 70px;
+}
+
+.cart-button>a:nth-child(2){
+  background-color: black;
+}
+
+.cart-button>a:nth-child(2) p{
+  position: absolute;
+  left: 65px;
+}
+
+.cart-button>a:nth-child(3){
+  background-color: black;
+  color: white;
+  width: 500px;
+  margin: 4rem auto;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* --------------- */
+/* sideCart end */
 
