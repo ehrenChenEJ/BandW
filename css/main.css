@@ -7,6 +7,8 @@ body{
   margin: 0;
 }
 
+/* Top start */
+/* ------------------ */
 .top-block{
   /* background-color: black; */
   width: 100%;
@@ -73,13 +75,28 @@ body{
   align-items: center;
 }
 
+.cart{
+  background-image: url(../images/bag.svg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+/* ------------------ */
+/* Top end */
+
+
+/* side start */
+/* ---------------- */
+
 .sideBar{
   width: 30%;
-  height: 100vh;
+  /* min-height: 100%; */
+  height: 100%;
   background-color: black;
-  z-index: 20;
+  z-index: 8888;
   position: absolute;
   color: white;
+  position: fixed;
 }
 
 .sideBarIn{
@@ -162,12 +179,13 @@ body{
 
 .cover{
   width: 70%;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   opacity: 0.5;
   z-index: 30;
   position: absolute;
   right: 0;
+  position: fixed;
 }
 
 /* burger icon */
@@ -230,7 +248,11 @@ body{
   transform-origin:top;
   transform:rotatez(-45deg);
 }
+/* ------------------ */
+/* side end */
 
+/* Main start */
+/* ---------------- */
 .bg {
   width: 100%;
   height: 100vh;
@@ -241,19 +263,60 @@ body{
   background-repeat: no-repeat,no-repeat,no-repeat;
   background-position: center,left,right;
 }
+/* ----------------- */
+/* Main end */
 
-.cart{
-  background-image: url(../images/bag.svg);
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-}
-
+/* Footer start */
+/* -------------------- */
 .footer{
   position: absolute;
-  top:100vh;
+  top:100vh; 
+  /* bottom: 0; */
   /* border: 1px solid red; */
   width: 100%;
   background-color: black;
   color: white;
+  z-index: 9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+.footer>div{
+  margin: 2rem;
+  color: lightslategrey;
+}
+.footer>div:nth-child(1) li,
+.footer>div:nth-child(2) li,
+.footer>div:nth-child(3) li,
+.footer>div:nth-child(4) li{
+  list-style-type: none;
+  /* border: 1px solid red; */
+  margin: 1rem auto 1rem 0;
+  font-size: 0.5rem;
+}
+
+.footer>div:nth-child(1) a,
+.footer>div:nth-child(2) a,
+.footer>div:nth-child(3) a,
+.footer>div:nth-child(4) a{
+  color: white;
+  text-decoration: none;
+}
+.footer>div:nth-child(1) ul,
+.footer>div:nth-child(2) ul,
+.footer>div:nth-child(3) ul,
+.footer>div:nth-child(4) ul{
+  /* border: 1px solid white; */
+  padding: 0;
+}
+.footer>div:nth-child(5){
+  width: 100%;
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+  font-size: 0.4rem;
+}
+/* --------------- */
+/* Footer end */
+
+
+
