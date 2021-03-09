@@ -245,10 +245,33 @@ body{
   height: 100vh;
   z-index: 0;
   position: absolute;
-  background-image: url(../images/main-4.jpeg),url(../images/main-6.jpeg),url(../images/main-7.jpeg);
-  background-size: contain, contain,contain;
-  background-repeat: no-repeat,no-repeat,no-repeat;
-  background-position: center,left,right;
+  display: flex;
+}
+
+.bg1{
+  width: 33%;
+  height: 100vh;
+  background-image: url(../images/main-4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg2{
+  width: 34%;
+  height: 100vh;
+  background-image: url(../images/main-6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg3{
+  width: 33%;
+  height: 100vh;
+  background-image: url(../images/main-7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* ----------------- */
 /* Main end */
