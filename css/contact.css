@@ -52,7 +52,24 @@ body{
   align-items: center;
   flex-wrap: wrap;
 }
+
 .contact-form form{
   width: 40%;
   border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form form>input,
+.contact-form form>div{
+  width: 100%;
+}
+
+.contact-form form>div{
+  background-color: blue;
+  display: flex;
+}
+
+.contact-form form>div>input{
+  width: 50%;
 }
