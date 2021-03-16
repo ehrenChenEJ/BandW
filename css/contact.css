@@ -8,7 +8,7 @@ body{
 }
 
 .contact-content-block{
-  background-color: white;
+  background-color: whitesmoke;
   width: 100%;
   /* height: 400px; */
   position: absolute;
@@ -51,11 +51,12 @@ body{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .contact-form form{
-  width: 40%;
-  border: 1px solid red;
+  width: 70%;
+  /* border: 1px solid red; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -64,12 +65,41 @@ body{
 .contact-form form>div{
   width: 100%;
 }
-
+.contact-form form>input{
+  margin: 2rem 0;
+  
+}
 .contact-form form>div{
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
+  justify-content: space-between;
 }
 
 .contact-form form>div>input{
-  width: 50%;
+  width: 45%;
+}
+
+.contact-form form>input,
+.contact-form form>div>input{
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+  padding-left: 1rem;
+}
+
+.contact-form form .message{
+  /* border: 1px solid rebeccapurple; */
+  height: 200px;
+  padding-bottom: 8rem;
+  
+}
+
+.contact-form form>button{
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  margin-top: 2rem;
 }

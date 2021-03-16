@@ -151,7 +151,8 @@ body{
 }
 
 .sideBar>div:nth-child(2)>:nth-child(3) a,
-.sideBar>div:nth-child(2)>:nth-child(4) a{
+.sideBar>div:nth-child(2)>:nth-child(4) a,
+.sideBar>div:nth-child(2)>:nth-child(5) a{
   color: white;
   text-decoration: none;  
 }
