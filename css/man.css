@@ -5,6 +5,8 @@
 body{
   background-color: white;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .topbar{
@@ -69,4 +71,196 @@ body{
   align-items: center;
   background-color: grey;
   cursor: pointer;
+}
+
+.user-map{
+  width: 95%;
+  /* border: 1px solid red; */
+  margin: 1rem auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-map>a{
+  text-decoration: none;
+}
+
+.user-map>a:nth-child(1){
+  color: black;
+}
+
+.user-map>a:nth-child(3),
+.user-map>a:nth-child(2){
+  color: grey;
+}
+
+.user-map>a:nth-child(2){
+  width: 3rem;
+  text-align: center;
+}
+
+.man-product{
+  width: 95%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* position: absolute; */
+}
+
+.man-product>div{
+  width: 24.9%;
+  height: 300px;
+  /* border:1px solid blue; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0.2%;
+}
+.man-product>div a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.man-product>div:hover{
+  background-size: 120%;
+  cursor: pointer;
+}
+
+.product-infor{
+  display: none;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.product-infor>div{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 30%;
+}
+.product-infor>div>div{
+  /* border: 1px solid rebeccapurple; */
+  width: 100%;
+  text-align: center;
+}
+
+.man-product>div:hover .product-infor{
+  display: block;
+}
+
+
+
+.man-product>div:nth-child(7){
+  width: 49.9%;
+  cursor: auto;
+}
+
+.man-product>div:nth-child(1){
+  background-image: url(../images/product-man/product_calender_1.jpeg);
+}
+
+.man-product>div:nth-child(2){
+  background-image: url(../images/product-man/product_bag_1.jpeg);
+}
+
+.man-product>div:nth-child(3){
+  background-image: url(../images/product-man/product_coat_1.jpeg);
+}
+
+.man-product>div:nth-child(4){
+  background-image: url(../images/product-man/product_jeans_1.jpeg);
+}
+
+.man-product>div:nth-child(5){
+  background-image: url(../images/product-man/product_bag2_1.jpeg);
+}
+
+.man-product>div:nth-child(6){
+  background-image: url(../images/product-man/product_cloth_1.jpeg);
+}
+
+.man-product>div:nth-child(7){
+  background-image: url(../images/product-man/img_collection-men_960x.jpeg);
+}
+
+.man-product>div:last-child{
+  border: 1px solid gray;
+  position: relative;
+}
+
+.man-product>div:last-child span{
+  width: 33%;
+  display: block;
+  position: absolute;
+  border: 2px solid black;
+  left: 33%;
+  top: 45%;
+}
+
+.man-product>div:last-child span:last-child{
+  transform:rotatez(90deg);
+}
+
+.content{
+  width: 100%;
+  min-height:100%;
+  margin:2rem auto;
+}
+
+
+
+/* 一頁式網頁footer設置不能用固定高度推 */
+.footer-product{
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: 9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-product>div{
+  margin: 2rem;
+  color: lightslategrey;
+}
+
+.footer-product>div:nth-child(1) li,
+.footer-product>div:nth-child(2) li,
+.footer-product>div:nth-child(3) li,
+.footer-product>div:nth-child(4) li{
+  list-style-type: none;
+  margin: 1rem auto 1rem 0;
+  font-size: 0.5rem;
+}
+
+.footer-product>div:nth-child(1) a,
+.footer-product>div:nth-child(2) a,
+.footer-product>div:nth-child(3) a,
+.footer-product>div:nth-child(4) a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-product>div:nth-child(1) ul,
+.footer-product>div:nth-child(2) ul,
+.footer-product>div:nth-child(3) ul,
+.footer-product>div:nth-child(4) ul{
+  padding: 0;
+}
+
+.footer-product>div:nth-child(5){
+  width: 100%;
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+  font-size: 0.4rem;
 }
