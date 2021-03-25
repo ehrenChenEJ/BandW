@@ -43,3 +43,95 @@
   margin: 3rem auto 2rem auto;
   font-size: 0.4rem;
 }
+
+.content{
+  border:1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productPhoto{
+  background-image: url(../images/product-man/product_calender_1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+
+  border: 1px solid blue;
+  height: 100vh;
+  margin-top: 150px;
+}
+
+.productDetail{
+  width: 50%;
+  border: 1px solid brown;
+  height: 100vh;
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topbar{
+  background-color: black;
+}
+
+.user-map{
+  background-color: blue;
+  width: 100%;
+  height: 30px;
+}
+.product-name{
+  background-color: blueviolet;
+  width: 100%;
+  height: 30px;
+}
+.product-price{
+  background-color: cadetblue;
+  width: 100%;
+  height: 30px;
+}
+
+.buy{
+  background-color: chartreuse;
+  width: 100%;
+  height: 30px;
+}
+
+.simple-detail{
+  background-color: chocolate;
+  width: 100%;
+  height: 30px;
+}
+
+.shipping-and-return {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 30px;
+}
+
+.share{
+  background-color: crimson;
+  width: 100%;
+  height: 30px;
+}
+
+.comment{
+  background-color: darkolivegreen;
+  width: 100%;
+  height: 30px;
+}
+
+.other{
+  border:1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.other-word{
+  width: 50%;
+  height: 100vh;
+}
+.other-pic{
+  width: 50%;
+  height: 100vh;
+}
