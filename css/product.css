@@ -232,9 +232,15 @@
 }
 
 .star-infor>div:nth-child(1){
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+.star-infor>div:nth-child(2){
+  /* border: 1px solid blue; */
+  margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .comment img {
@@ -243,7 +249,7 @@
 }
 
 .consumerRe-block{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -259,10 +265,44 @@
   justify-content: center;
   align-items: center;
   margin-right: 200px;
+  cursor: pointer;
+}
+
+.consumerRe-block>div:nth-child(2):hover{
+  background-color: black;
+  color: white;
 }
 
 .comment-star{
   display: flex;
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.comment-bar{
+  border: 1px solid lightgray;
+  width: 160px;
+}
+
+.percent{
+  background-color: rgb(255, 255, 48);
+  
+}
+
+.percent-50{
+  width: 50%;
+  height: 100%;
+}
+
+.percent-50{
+  /* background-color: yellow; */
+  /* background-size: 80px; */
+}
+
+.comment-num{
+  width: 20px;
 }
 
 .comment-infor{
