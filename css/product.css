@@ -50,6 +50,12 @@
   flex-wrap: wrap;
 }
 
+.topSpace{
+  width: 100%;
+  height: 158px;
+  background-color: black;
+}
+
 .productPhoto{
   background-image: url(../images/product-man/product_calender_1.jpeg);
   background-position: center;
@@ -59,29 +65,44 @@
 
   border: 1px solid blue;
   height: 100vh;
-  margin-top: 150px;
+  /* margin-top: 158px; */
 }
 
 .productDetail{
   width: 50%;
   border: 1px solid brown;
   height: 100vh;
-  margin-top: 150px;
+  /* margin-top: 158px; */
   display: flex;
   flex-wrap: wrap;
+  padding: 5rem;
 }
 
 .topbar{
-  background-color: black;
+  background-color:rgba(0, 0, 0, 0.9);
 }
 
 .user-map{
-  background-color: blue;
+  border: 1px solid red;
   width: 100%;
   height: 30px;
+  display: flex;
+  justify-content: flex-start;
 }
+
+.user-map a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.user-map a:nth-child(5){
+  color: gray;
+}
+
 .product-name{
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 100%;
   height: 30px;
 }
@@ -94,44 +115,139 @@
 .buy{
   background-color: chartreuse;
   width: 100%;
-  height: 30px;
+  /* height: 30px; */
+  display: flex;
 }
 
 .simple-detail{
   background-color: chocolate;
   width: 100%;
-  height: 30px;
+  /* height: 30px; */
 }
 
 .shipping-and-return {
   background-color: cornflowerblue;
   width: 100%;
-  height: 30px;
+  /* height: 30px; */
 }
 
 .share{
-  background-color: crimson;
+  /* background-color: crimson; */
   width: 100%;
-  height: 30px;
+  /* height: 30px; */
+  display: flex;
+  justify-content: flex-start;
 }
 
+.share img {
+  width: 30px;
+  height: 30px;
+  margin-left: 1rem;
+}
+
+.share a {
+  text-decoration: none;
+}
 .comment{
   background-color: darkolivegreen;
   width: 100%;
-  height: 30px;
+  /* height: 30px; */
+  padding: 1rem;
+}
+
+.comment img {
+  width: 20px;
+  height: 20px;
+}
+
+.consumerRe-block{
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-star{
+  display: flex;
+}
+
+.comment-infor{
+  display: flex;
+}
+
+.comment-user{
+  display: flex;
+}
+.comment-upper{
+  display: flex;
+}
+.user-pic{
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/product-man/user.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: aqua;
+  border-radius: 50%;
 }
 
 .other{
   border:1px solid red;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  width: 100%;
 }
 
 .other-word{
   width: 50%;
   height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.other-word>div{
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
 .other-pic{
   width: 50%;
   height: 100vh;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-pic .product-infor{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid yellowgreen; */
+}
+
+.other-pic>div{
+  width: 49.5%;
+  height: 49vh;
+  background-color: brown;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.other-pic>div:nth-child(1){
+  background-image: url(../images/product-man/product_coat_1.jpeg);
+}
+.other-pic>div:nth-child(2){
+  background-image: url(../images/product-man/product_jeans_1.jpeg);
+}
+.other-pic>div:nth-child(3){
+  background-image: url(../images/product-man/product_cloth_2.jpeg);
+}
+.other-pic>div:nth-child(4){
+  background-image: url(../images/product-man/product_bag_1.jpeg);
 }
