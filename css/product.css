@@ -309,21 +309,51 @@
   display: flex;
 }
 
+.comment-infor>div>img:last-child{
+  margin-right: 0.5rem;
+}
+
+.comment-word{
+  /* border: 1px solid red; */
+}
+
 .comment-user{
   display: flex;
 }
+
+.comment-user>div:first-child{
+  color: white;
+  background-color: black;
+  width: 5rem;
+  text-align: center;
+  margin-right:1rem ;
+}
+
+.comment-user:last-child{
+  font-weight: bold;
+}
+
+
 .comment-upper{
   display: flex;
+  /* background-color: violet; */
+  margin-bottom: 1rem;
 }
+
+.comment-word-content{
+  font-weight: 800;
+}
+
 .user-pic{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-image: url(../images/product-man/user.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: aqua;
+  background-size: contain;
+  background-color: lightgray;
   border-radius: 50%;
+  margin-right: 1rem;
 }
 
 .other{
