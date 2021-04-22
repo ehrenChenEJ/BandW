@@ -387,3 +387,106 @@ body{
 /* --------------- */
 /* sideCart end */
 
+/* RWD start */
+@media (min-width:1200px){
+  .sideCart{
+    width: 40%;
+    max-width: 540px;
+  }
+
+  .cover2{
+    max-width: calc(100%-550px);
+    width: 75%;
+  }
+}
+@media screen and (min-width:501px) and (max-width:1200px){
+  .topbar-2>div{
+    width: 70%;
+  }
+
+  .sideBar{
+    width: 50%;
+  }
+
+  .cover{
+    width: 50%;
+  }
+
+  .sideCart{
+    width: 70%;
+  }
+
+  .cover2{
+    width: 30%;
+  }
+}
+
+@media (max-width:500px){
+  .promo{
+    font-size: 0.5rem;
+  }
+
+  .topbar{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #nav-icon span{
+    height: 2px;
+    width: 90%;
+  }
+
+  .cart{
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer>div{
+    width: 100%;
+    text-align: center;
+  }
+
+  .sideBar{
+    width: 90%;
+  }
+
+  .cover{
+    width: 10%;
+  }
+
+  .topbar-2>div{
+    display: none;
+  }
+
+  .bg2,
+  .bg3{
+    width: 0;
+  }
+
+  .bg1{
+    width: 100%;
+  }
+
+  .sideCart{
+    width: 90%;
+  }
+
+  .cover2{
+    width: 10%;
+  }
+
+  .cart-button{
+    margin: 4rem 0;
+    width: 90%;
+    min-width: 0;
+  }
+
+  .cart-button>a:nth-child(1)>div,
+  .cart-button>a:nth-child(2)>div{
+    margin-bottom: 3rem;
+  }
+
+  .cart-button>a:nth-child(3){
+    margin: 0;
+  }
+}
