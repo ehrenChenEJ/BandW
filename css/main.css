@@ -87,7 +87,7 @@ body{
 /* ---------------- */
 
 .sideBar{
-  width: 30%;
+  width:30%;
   height: 100%;
   background-color: black;
   z-index: 8888;
@@ -358,6 +358,8 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  min-width: 470px;
+  max-width: 500px;
 }
 .cart-button>a:nth-child(1)>div,
 .cart-button>a:nth-child(2)>div{
@@ -377,7 +379,7 @@ body{
   left: 70px;
 }
 
-.cart-button>a:nth-child(2){
+.cart-button>a:nth-child(2)>div{
   background-color: black;
 }
 
@@ -411,12 +413,115 @@ body{
 /* --------------- */
 /* sideCart end */
 /* RWD start */
-@media (max-width:1200px){
+@media (min-width:1200px){
+  .sideCart{
+    width: 40%;
+    max-width: 540px;
+  }
+
+  .cover2{
+    max-width: calc(100%-550px);
+    width: 75%;
+  }
+}
+@media screen and (min-width:501px) and (max-width:1200px){
   .topbar-2>div{
     width: 70%;
   }
+
+  .sideBar{
+    width: 50%;
+  }
+
+  .cover{
+    width: 50%;
+  }
+
+  .sideCart{
+    width: 70%;
+  }
+
+  .cover2{
+    width: 30%;
+  }
 }
 
-@media (max-width:900px){
+@media (max-width:500px){
+  .promo{
+    font-size: 0.5rem;
+  }
 
+  .topbar{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #nav-icon span{
+    height: 2px;
+    width: 90%;
+  }
+
+  .cart{
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer>div{
+    width: 100%;
+    text-align: center;
+  }
+
+  .sideBar{
+    width: 90%;
+  }
+
+  .cover{
+    width: 10%;
+  }
+
+  .topbar-2>div{
+    display: none;
+  }
+
+  .bg2,
+  .bg3{
+    width: 0;
+  }
+
+  .bg1{
+    width: 100%;
+  }
+
+  .sideCart{
+    width: 90%;
+  }
+
+  .cover2{
+    width: 10%;
+  }
+
+  .cart-button{
+    /* width: 100px; */
+    margin: 4rem 0;
+    /* border: 1px solid red; */
+    width: 90%;
+    min-width: 0;
+  }
+
+  .cart-button>a:nth-child(1)>div,
+  .cart-button>a:nth-child(2)>div{
+    /* width: 230px; */
+    /* height: 50px; */
+    /* position: relative; */
+    /* color: white; */
+    /* font-weight: bold; */
+    /* margin-bottom: 1rem; */
+    /* border: 1px solid blue; */
+    margin-bottom: 3rem;
+  }
+
+  .cart-button>a:nth-child(3){
+    /* width: 200px; */
+    margin: 0;
+  }
 }
