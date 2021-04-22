@@ -353,7 +353,7 @@ body{
   left: 70px;
 }
 
-.cart-button>a:nth-child(2){
+.cart-button>a:nth-child(2) >div{
   background-color: black;
 }
 
