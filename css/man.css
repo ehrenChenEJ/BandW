@@ -272,3 +272,40 @@ body{
   margin: 3rem auto 2rem auto;
   font-size: 0.4rem;
 }
+
+
+
+@media screen and (min-width:500px) and (max-width:1200px) {
+  .man-product>div {
+    width: 49.9%;
+  }
+
+  .man-product>div:nth-child(7){
+    width: 99.9%;
+  }
+}
+
+@media screen and (max-width:499px){
+  .topbar {
+    margin: 0;
+  }
+  
+  .topbar-1{
+    margin: 0;
+    width: 100vw;
+    padding: 0 20px;
+    background-color:rgba(0,0,0,0.5);
+  }
+
+  .man-product>div:nth-child(7),
+  .man-product>div {
+    width: 99.9%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  .top-pic .topPic-word{
+    margin-bottom: 1rem;
+  }
+}

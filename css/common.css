@@ -430,6 +430,7 @@ body{
 @media (max-width:500px){
   .promo{
     font-size: 0.5rem;
+    padding-left: 10px;
   }
 
   .topbar{
