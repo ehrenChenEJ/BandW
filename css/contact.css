@@ -105,3 +105,66 @@ body{
   cursor: pointer;
   margin-top: 2rem;
 }
+
+@media(max-width:500px){
+  .contact-form{
+    width: 100%;
+  }
+  .contact-pic{
+    display: none;
+  }
+
+  .contact-content-block{
+    flex-wrap: wrap;
+  }
+
+  .footer{
+    top: 100vh;
+  }
+  .topbar-2{
+    /* display: none; */
+  }
+
+  .contact-content-block{
+    top: 130px;
+  }
+
+  .contact-form form>input{
+    margin: 1rem 0;
+  }
+}
+
+@media(max-width:400px){
+  .contact-content-block{
+    top: 120px;
+  }
+
+  .contact-form form>input{
+    margin:5px;
+  }
+
+  .contact-form form>input,
+  .contact-form form>div>input{
+    height: 30px;
+  }
+
+  .contact-form form>div{
+    margin: auto 5px;
+  }
+
+  .contact-form>div:nth-child(1){
+    margin-top: 5px;
+  }
+
+  .contact-form form>button{
+    height: 30px;
+    margin-top: 20px;
+  }
+  .contact-form form .message{
+    padding: 0;
+    height: 150px;
+    overflow: scroll;
+    padding-left: 1rem;
+  }
+
+}
