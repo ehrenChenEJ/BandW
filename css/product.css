@@ -45,7 +45,6 @@
 }
 
 .content{
-  /* border:1px solid red; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -62,17 +61,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
-
-  /* border: 1px solid blue; */
   height: 100vh;
-  /* margin-top: 158px; */
 }
 
 .productDetail{
   width: 50%;
-  /* border: 1px solid brown; */
   height: 100vh;
-  /* margin-top: 158px; */
   display: flex;
   flex-wrap: wrap;
   padding: 6rem;
@@ -84,7 +78,6 @@
 }
 
 .user-map{
-  /* border: 1px solid red; */
   width: 100%;
   height: 30px;
   display: flex;
@@ -103,25 +96,20 @@
 }
 
 .product-name{
-  /* background-color: blueviolet; */
   width: 100%;
-  /* height: 30px; */
   font-size: 2.5rem;
   margin: 2rem auto;
 }
+
 .product-price{
-  /* background-color: cadetblue; */
   width: 100%;
-  /* height: 30px; */
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
 
 .buy{
-  /* background-color: chartreuse; */
   width: 100%;
-  /* height: 30px; */
   display: flex;
   justify-content: space-between;
   margin: 2rem auto;
@@ -131,16 +119,12 @@
   width: 60px;
   height: 60px;
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
 .addToCar {
-  /* border: 1px solid red; */
   height: 60px;
   width: 90%;
   text-align: center;
-  /* margin-top: 20%; */
   padding-top: 20px;
   cursor: pointer;
   background-color: black;
@@ -148,9 +132,7 @@
 }
 
 .simple-detail{
-  /* background-color: chocolate; */
   width: 100%;
-  /* height: 30px; */
   letter-spacing: 1px;
   margin: 3rem auto;
 }
@@ -165,9 +147,7 @@
 }
 
 .shipping-and-return {
-  /* background-color: cornflowerblue; */
   width: 100%;
-  /* height: 30px; */
   margin: 2rem auto 3rem auto;
   letter-spacing: 1px;
 }
@@ -177,7 +157,6 @@
 }
 
 .shipping-and-return>div:nth-child(1) {
-  /* border: 1px solid red; */
   width: 40%;
   height: 60px;
   display: flex;
@@ -187,7 +166,6 @@
 }
 
 .shipping-and-return>div:nth-child(2){
-  /* background-color: lightgreen; */
   padding: 2rem;
   border: 1px solid lightgray;
 }
@@ -197,11 +175,8 @@
   font-weight: 500;
 }
 
-
 .share{
-  /* background-color: crimson; */
   width: 100%;
-  /* height: 30px; */
   display: flex;
   justify-content: flex-start;
   margin-bottom: 2rem;
@@ -217,28 +192,23 @@
   text-decoration: none;
 }
 .comment{
-  /* background-color: darkolivegreen; */
   width: 100%;
-  /* height: 30px; */
   padding: 2rem;
   border: 1px solid lightgrey;
 }
 
 .star-infor{
-  /* background-color: blue; */
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom:1px solid lightgrey ;
 }
 
 .star-infor>div:nth-child(1){
-  /* border: 1px solid yellowgreen; */
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
 .star-infor>div:nth-child(2){
-  /* border: 1px solid blue; */
   margin-bottom: 1rem;
   font-weight: 500;
 }
@@ -249,7 +219,6 @@
 }
 
 .consumerRe-block{
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -275,7 +244,6 @@
 
 .comment-star{
   display: flex;
-  /* border: 1px solid red; */
   margin-bottom: 1rem;
   width: 60%;
   justify-content: space-between;
@@ -296,11 +264,6 @@
   height: 100%;
 }
 
-.percent-50{
-  /* background-color: yellow; */
-  /* background-size: 80px; */
-}
-
 .comment-num{
   width: 20px;
 }
@@ -311,10 +274,6 @@
 
 .comment-infor>div>img:last-child{
   margin-right: 0.5rem;
-}
-
-.comment-word{
-  /* border: 1px solid red; */
 }
 
 .comment-user{
@@ -333,15 +292,14 @@
   font-weight: bold;
 }
 
-
 .comment-upper{
   display: flex;
-  /* background-color: violet; */
   margin-bottom: 1rem;
 }
 
 .comment-word-content{
   font-weight: 800;
+  overflow: scroll;
 }
 
 .user-pic{
@@ -357,30 +315,23 @@
 }
 
 .other{
-  /* border:1px solid red; */
   display: flex;
-  /* flex-wrap: wrap; */
   width: 100%;
 }
 
 .other-word{
   width: 50%;
   height: 100vh;
-  /* background-color: aqua; */
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
 }
 
 .other-word>div{
   width: 100%;
-  /* border: 1px solid red; */
   display: flex;
-  /* justify-content: center; */
   flex-wrap:wrap ;
   font-size: 4rem;
-  /* height: 150px; */
   padding-left: 3rem;
 }
 
@@ -401,7 +352,6 @@
 .other-pic{
   width: 50%;
   height: 100vh;
-  /* background-color: blueviolet; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -410,7 +360,6 @@
 .other-pic .product-infor{
   width: 100%;
   height: 100%;
-  /* border: 1px solid yellowgreen; */
 }
 
 .other-pic>div{
@@ -444,7 +393,6 @@
 }
 
 .product-infor>div{
-  /* border: 1px solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -453,8 +401,8 @@
   position: absolute;
   top: 30%;
 }
+
 .product-infor>div>div{
-  /* border: 1px solid rebeccapurple; */
   width: 100%;
   text-align: center;
 }
@@ -474,4 +422,107 @@
 }
 .other-pic>div:nth-child(4){
   background-image: url(../images/product-man/product_bag_1.jpeg);
+}
+
+/* RWD */
+@media screen and (max-width:1200px){
+  .productPhoto{
+    width: 100%;
+    height: 50vh;
+  }
+  .productDetail{
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .other{
+    flex-wrap: wrap;
+  }
+
+  .other-word{
+    width: 100%;
+    height: 50vh;
+  }
+
+  .other-pic{
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .topbar-1, .topbar{
+    margin: 0;
+    width: 100%;
+  }
+
+  .topbar{
+    padding: 0 10px;
+  }
+  .other-word hr{
+    width: 40vw;
+  }
+
+  .other-word>div{
+    font-size: 2rem;
+  }
+
+  .user-map a{
+    font-size: 0.5rem;
+  }
+
+  .product-name{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .productPhoto{
+    height: 40vh;
+  }
+
+  .productDetail{
+    padding: 1rem;
+  }
+
+  .shipping-and-return>div:nth-child(1){
+    padding-left: 10px;
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  .shipping-and-return>div:nth-child(2){
+    padding: 1rem;
+  }
+
+  .comment{
+    padding: 1rem;
+  }
+  .consumerRe-block>div:nth-child(2){
+    margin: 0;
+    width: 120px;
+    font-size: 0.8rem;
+  }
+
+  .comment-star{
+    width: 100%;
+  }
+
+  .comment-bar{
+    width: 60px;
+  }
+
+  .comment img{
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+
+  .comment-user>div:first-child{
+    margin-right: 0.5rem;  
+  }
+
+  .comment-user:last-child{
+    font-size: 0.9rem;
+  }
+
 }

@@ -530,4 +530,10 @@ body{
     /* position: ; */
   }
 
+  .footer-product>div{
+    border: 1px solid red;
+    width: 100%;
+    text-align: center;
+  }
 }
+

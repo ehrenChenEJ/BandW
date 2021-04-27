@@ -3,13 +3,10 @@
 }
 
 body{
-  /* background-color: black; */
   margin: 0;
 }
 
 .title{
-  /* color: white; */
-  /* border: 1px solid red; */
   margin: 0 auto;
   text-align: center;
   font-size: 60px;
@@ -34,9 +31,7 @@ body{
 }
 .b-area{
   width: 50%;
-  /* border: 1px solid red; */
   height: calc(100vh - 100px);
-  /* background-color: black; */
   background-image: url(../images/main-1.jpg);
   background-size: cover;
   background-position:center;
@@ -48,12 +43,10 @@ body{
   font-weight: 900;
   color: aliceblue;
   z-index: 1;
-  /* opacity: 0.6; */
 }
 
 .w-area{
   width: 50%;
-  /* border:1px solid blue; */
   background-image: url(../images/main-2.jpeg);
   background-size: cover;
   background-repeat: none;
@@ -70,9 +63,6 @@ body{
 
 .w-area .cls-1{
   fill:#231815;
-  /* fill:none;
-  stroke:#000;
-  stroke-width: 2; */
 }
 .b-area .cls-1{
   fill:rgb(255, 255, 255);
@@ -80,16 +70,16 @@ body{
 
 .w-word{
   width: 350px;
-  /* border: 1px solid red; */
 }
+
 .b-word{
   width: 350px;
 }
+
 .topWord{
   z-index: 10;
   width: 100%;
   height: 100px;
-  /* border: 1px solid red; */
   position: absolute;
   top:30%;
   display: flex;
@@ -112,7 +102,6 @@ body{
   font-size: 40px;
   font-weight: 900;
   color: gray;
-  /* border: 1px solid red; */
   padding-left: 10%;
   display: none;
 }
@@ -120,7 +109,6 @@ body{
 .enter{
   z-index: 10;
   position: absolute;
-  /* border: 1px solid red; */
   width: 100%;
   top: 45%;
 }
@@ -152,10 +140,8 @@ body{
 }
 
 /* RWD start */
-/* RWD start */
 @media (max-width:900px){
   .topWord{
-    /* border: 1px solid red; */
     display: none;
   }
 

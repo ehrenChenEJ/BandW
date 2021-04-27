@@ -12,7 +12,6 @@ body{
 .contact-content-block{
   background-color: whitesmoke;
   width: 100%;
-  /* height: 400px; */
   position: absolute;
   top: 200px;
   display: flex;
@@ -32,9 +31,6 @@ body{
   background-repeat: no-repeat;
 }
 
-.contact-pic>div{
-  /* border:1px solid red; */
-}
 .contact-pic hr{
   width: 30%;
   border: 5px solid white;
@@ -48,7 +44,6 @@ body{
 .contact-form{
   width: 50%;
   height: calc(100vh - 200px);
-  /* background-color: violet; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +53,6 @@ body{
 
 .contact-form form{
   width: 70%;
-  /* border: 1px solid red; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -72,7 +66,6 @@ body{
   
 }
 .contact-form form>div{
-  /* background-color: blue; */
   display: flex;
   justify-content: space-between;
 }
@@ -91,7 +84,6 @@ body{
 }
 
 .contact-form form .message{
-  /* border: 1px solid rebeccapurple; */
   height: 200px;
   padding-bottom: 8rem;
   
@@ -120,9 +112,6 @@ body{
 
   .footer{
     top: 100vh;
-  }
-  .topbar-2{
-    /* display: none; */
   }
 
   .contact-content-block{
